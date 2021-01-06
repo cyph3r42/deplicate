@@ -5,7 +5,7 @@ from __future__ import absolute_import
 from ..init import compilecards
 from .common import fsdecode
 from .posix import has_hidden_attribute as _has_hidden_attribute
-from .posix import has_archive_attribute, is_archived
+from .posix import has_archive_attribute, is_archived, blksize
 
 
 WILDCARDS = (
